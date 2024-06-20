@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+body{
+    background-image: url('/img/ale.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: multiply;
+}:root{
+    --color-medo: #600179;
+    --color-raiva: #F52016;
+    --color-alegria: #FDE101;
+    --color-nojo:#11BC01;
+    --color-tristeza:#0057C0;
+    --color-vergonha:#D63594;
+    --color-ansiedade:#F87D0C;
+    --color-inveja:#3AD8C4;
+    --color-tedio:#645CC5;
+    --color-text: white;
+}
+.princ{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.titulo_esc{
+    color: var(--color-text);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 50px
+}
+.options a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Shadows Into Light", cursive;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bnt_alegria{
+    background-color: var(--color-alegria);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_raiva{
+    background-color: var(--color-raiva);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_ansiedade{
+    background-color: var(--color-ansiedade);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_nojo{
+    background-color: var(--color-nojo);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_vergonha{
+    background-color: var(--color-vergonha);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_medo{
+    background-color: var(--color-medo);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_inveja{
+    background-color: var(--color-inveja);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_tedio{
+    background-color: var(--color-tedio);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+.bnt_tristeza{
+    background-color: var(--color-tristeza);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}

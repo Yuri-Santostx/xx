@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+:root{
+    --color-medo: #600179;
+    --color-raiva: #F52016;
+    --color-alegria: #FDE101;
+    --color-nojo:#11BC01;
+    --color-tristeza:#0057C0;
+    --color-vergonha:#D63594;
+    --color-ansiedade:#F87D0C;
+    --color-inveja:#3AD8C4;
+    --color-tedio:#645CC5;
+    --color-text: white;
+}
+body {
+    background-image: url('/img/fundo.jpg');
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: multiply;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+.titulo_principal{
+    color: var(--color-text);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 100px;
+}
+.sub_title{
+    color: var(--color-text);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+}
+.but_emotion{
+    background-color: var(--color-medo);
+    font-family: "Shadows Into Light", cursive;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 0 0 10px var(--color-alegria);
+}
+.linkk{
+    text-decoration: none;
+    color: white;
+}
